@@ -1,0 +1,54 @@
+const translations = {
+  en: {
+    heroEyebrow: "TENANT PROFILE · POLAND",
+    heroSubtitle: "Apartment tenant. Indoor cat. Five years of excellent residential history.",
+    tagLitter: "✓ Litter trained", tagQuiet: "✓ Quiet", tagNeutered: "✓ Neutered", tagIndoor: "✓ Indoor only",
+    heroNote: "Currently seeking a long-term home in Poland with my human, Mihaela.",
+    cvButton: "View my tenant CV", meetButton: "Meet Morpheus", stamp: "APARTMENT APPROVED", floatingNote: "No furniture casualties reported.",
+    factsEyebrow: "THE ESSENTIALS", factsTitle: "Small tenant. Strong references.", factBorn: "Born", factHomes: "Homes lived in", factCountries: "Countries", factDamage: "Furniture damage", factComplaints: "Noise complaints", factLitter: "Litter-box accuracy",
+    aboutEyebrow: "ABOUT MORPHEUS", aboutTitle: "Raised for apartment life.",
+    aboutP1: "Morpheus was adopted as a kitten in November 2021 and has lived with me ever since. He is a neutered, fully vaccinated indoor cat who is exceptionally clean, quiet and well trained.",
+    aboutP2: "Over the past five years, we have lived together in three homes across Greece, the United Kingdom and Italy. He is used to moving, settling into new spaces and respecting the home around him.",
+    aboutP3: "He is a little shy around new people, but once he feels safe he is sweet, calm and affectionate. His preferred daily agenda is sleeping, eating and watching birds from the window.",
+    careEyebrow: "LANDLORD REASSURANCE", careTitle: "Everything has its place. Including Morpheus.", careIntro: "His routine has been built around keeping the home clean, quiet and protected.",
+    cleanTitle: "Cleanliness & care", cleanText: "He uses an enclosed litter box exclusively, has a dedicated feeding station with a silicone mat, eats high-quality food and is groomed regularly.",
+    propertyTitle: "Property safety", propertyText: "He uses his scratching pad and has no interest in furniture, curtains, doors or walls. The furniture in all our homes has remained intact.",
+    behaviourTitle: "Calm behaviour", behaviourText: "He is quiet indoors, does not roam outside and spends most of his time sleeping, relaxing or birdwatching. No noise complaints. Ever.",
+    ownerTitle: "Responsible ownership", ownerText: "I have raised and trained Morpheus since he was a kitten and take full responsibility for his care, cleanliness and behaviour.",
+    recordEyebrow: "RENTAL RECORD", recordTitle: "Five years. Three homes. Zero drama.", recordText: "Greece → United Kingdom → Italy. Furnished homes, upholstered furniture and carpets included.",
+    recordDamage: "Property damage", recordNoise: "Noise complaints", recordEvictions: "Evictions", recordArrears: "Rent arrears", notDepartment: "Not my department",
+    routineEyebrow: "THE ROUTINE", routineTitle: "Professional standards, apparently.", routine1: "Fully vaccinated, with vaccinations kept up to date", routine2: "Dewormed regularly each year", routine3: "Claws trimmed every week", routine4: "Own scratching pad and dedicated feeding station", routine5: "Annual summer bath and regular grooming", routine6: "Strictly indoor lifestyle",
+    scratchJoke: "The only thing Morpheus occasionally scratches is his human. The furniture has been spared.", stairsCaption: "Exhibit A: carpet, still intact.",
+    galleryEyebrow: "PHOTO EVIDENCE", galleryTitle: "A documented history of being extremely handsome.", capBird: "Neighbourhood watch department.", capToy: "Personal belongings: one ball.", capRelax: "Primary occupation: relaxing.", capOutside: "Outdoor appearance supervised only.", capFormal: "Formal attire available upon request.", capHome: "Soft furnishings: unharmed.",
+    closingEyebrow: "ONE LAST THING", closingTitle: "He is not just a pet. He is family.", closingText: "I understand that allowing a pet into a rental property requires trust. Morpheus has been raised with clear routines and boundaries, and I take full responsibility for making sure our next home is cared for just as carefully as our previous ones.", downloadCv: "Open Morpheus's CV", footer: "Made for landlords who appreciate excellent tenants."
+  },
+  pl: {
+    heroEyebrow: "PROFIL NAJEMCY · POLSKA",
+    heroSubtitle: "Lokator mieszkania. Kot niewychodzący. Pięć lat wzorowej historii mieszkaniowej.",
+    tagLitter: "✓ Korzysta z kuwety", tagQuiet: "✓ Spokojny", tagNeutered: "✓ Wykastrowany", tagIndoor: "✓ Kot niewychodzący",
+    heroNote: "Obecnie szuka długoterminowego domu w Polsce razem ze swoją opiekunką, Mihaelą.",
+    cvButton: "Zobacz CV najemcy", meetButton: "Poznaj Morpheusa", stamp: "GOTOWY DO MIESZKANIA", floatingNote: "Brak zgłoszonych ofiar wśród mebli.",
+    factsEyebrow: "NAJWAŻNIEJSZE FAKTY", factsTitle: "Mały lokator. Mocne referencje.", factBorn: "Data urodzenia", factHomes: "Domy i mieszkania", factCountries: "Kraje", factDamage: "Uszkodzenia mebli", factComplaints: "Skargi na hałas", factLitter: "Skuteczność kuwety",
+    aboutEyebrow: "O MORPHEUSIE", aboutTitle: "Wychowany do życia w mieszkaniu.",
+    aboutP1: "Morpheus został adoptowany jako kociak w listopadzie 2021 roku i od tamtej pory mieszka ze mną. Jest wykastrowanym, w pełni zaszczepionym kotem niewychodzącym - bardzo czystym, spokojnym i dobrze wychowanym.",
+    aboutP2: "W ciągu ostatnich pięciu lat mieszkaliśmy razem w trzech domach i mieszkaniach w Grecji, Wielkiej Brytanii i we Włoszech. Jest przyzwyczajony do przeprowadzek, szybko odnajduje się w nowym miejscu i szanuje przestrzeń, w której mieszka.",
+    aboutP3: "Na początku jest nieco nieśmiały wobec nowych osób, ale kiedy poczuje się bezpiecznie, staje się łagodny, spokojny i czuły. Jego ulubiony plan dnia to spanie, jedzenie i obserwowanie ptaków przez okno.",
+    careEyebrow: "DLA WŁAŚCICIELA MIESZKANIA", careTitle: "Wszystko ma swoje miejsce. Morpheus również.", careIntro: "Jego codzienna rutyna została ułożona tak, aby mieszkanie pozostawało czyste, spokojne i zadbane.",
+    cleanTitle: "Czystość i pielęgnacja", cleanText: "Korzysta wyłącznie z zamkniętej kuwety, ma własne miejsce do jedzenia z silikonową matą, otrzymuje wysokiej jakości karmę i jest regularnie pielęgnowany.",
+    propertyTitle: "Bezpieczeństwo mieszkania", propertyText: "Korzysta z własnego drapaka i nie interesują go meble, zasłony, drzwi ani ściany. Meble we wszystkich naszych dotychczasowych domach pozostały nienaruszone.",
+    behaviourTitle: "Spokojne zachowanie", behaviourText: "W domu jest cichy, nie wychodzi sam na zewnątrz i większość czasu spędza śpiąc, odpoczywając lub obserwując ptaki. Zero skarg na hałas.",
+    ownerTitle: "Odpowiedzialna opieka", ownerText: "Wychowuję i szkolę Morpheusa od czasu, gdy był kociakiem, i biorę pełną odpowiedzialność za jego opiekę, czystość oraz zachowanie.",
+    recordEyebrow: "HISTORIA NAJMU", recordTitle: "Pięć lat. Trzy domy. Zero dramatu.", recordText: "Grecja → Wielka Brytania → Włochy. W tym umeblowane mieszkania, tapicerowane meble i wykładziny.",
+    recordDamage: "Szkody w mieszkaniu", recordNoise: "Skargi na hałas", recordEvictions: "Eksmisje", recordArrears: "Zaległości w czynszu", notDepartment: "Nie mój dział",
+    routineEyebrow: "CODZIENNA RUTYNA", routineTitle: "Profesjonalne standardy. Najwyraźniej.", routine1: "W pełni zaszczepiony, ze szczepieniami na bieżąco", routine2: "Regularnie odrobaczany każdego roku", routine3: "Pazurki przycinane co tydzień", routine4: "Własny drapak i wydzielone miejsce do jedzenia", routine5: "Coroczna letnia kąpiel i regularna pielęgnacja", routine6: "Wyłącznie domowy tryb życia",
+    scratchJoke: "Jedyną rzeczą, którą Morpheus czasem drapie, jest jego opiekunka. Meble są bezpieczne.", stairsCaption: "Dowód A: wykładzina nadal w idealnym stanie.",
+    galleryEyebrow: "DOWODY FOTOGRAFICZNE", galleryTitle: "Udokumentowana historia bycia wyjątkowo przystojnym.", capBird: "Osiedlowy dział monitoringu.", capToy: "Majątek osobisty: jedna piłeczka.", capRelax: "Główne zajęcie: odpoczywanie.", capOutside: "Wyjścia na zewnątrz wyłącznie pod nadzorem.", capFormal: "Strój formalny dostępny na życzenie.", capHome: "Miękkie wyposażenie: bez uszkodzeń.",
+    closingEyebrow: "NA KONIEC", closingTitle: "To nie tylko zwierzak. To rodzina.", closingText: "Rozumiem, że zgoda na zwierzę w wynajmowanym mieszkaniu wymaga zaufania. Morpheus od małego ma jasno ustalone zasady i rutynę, a ja biorę pełną odpowiedzialność za to, aby nasz kolejny dom był traktowany z taką samą troską jak wszystkie poprzednie.", downloadCv: "Otwórz CV Morpheusa", footer: "Stworzone dla właścicieli, którzy doceniają wzorowych lokatorów."
+  }
+};
+function setLanguage(lang){document.documentElement.lang=lang;document.querySelectorAll("[data-i18n]").forEach(el=>{const key=el.dataset.i18n;if(translations[lang][key])el.textContent=translations[lang][key];});document.querySelectorAll(".lang-btn").forEach(btn=>btn.classList.toggle("active",btn.dataset.lang===lang));localStorage.setItem("morpheus-language",lang);}
+document.querySelectorAll(".lang-btn").forEach(btn=>btn.addEventListener("click",()=>setLanguage(btn.dataset.lang)));setLanguage(localStorage.getItem("morpheus-language")||"en");
+const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add("visible");observer.unobserve(entry.target);}});},{threshold:.12});document.querySelectorAll(".reveal").forEach(el=>observer.observe(el));
+const reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches;const pawLayer=document.getElementById("paw-layer");const pawSvg='<svg viewBox="0 0 64 64" aria-hidden="true"><ellipse cx="32" cy="42" rx="16" ry="13"/><ellipse cx="13" cy="29" rx="7" ry="10" transform="rotate(-24 13 29)"/><ellipse cx="25" cy="18" rx="7" ry="10" transform="rotate(-8 25 18)"/><ellipse cx="39" cy="18" rx="7" ry="10" transform="rotate(8 39 18)"/><ellipse cx="51" cy="29" rx="7" ry="10" transform="rotate(24 51 29)"/></svg>';
+function pawWalk(){if(reducedMotion||!pawLayer)return;const count=window.innerWidth<640?6:9;const startY=18+Math.random()*54;const slope=(Math.random()-.5)*18;const reverse=Math.random()>.5;for(let i=0;i<count;i++){setTimeout(()=>{const paw=document.createElement("div");paw.className="paw-print";paw.innerHTML=pawSvg;const progress=i/(count-1);const x=reverse?92-progress*92:2+progress*92;const y=startY+progress*slope+(i%2?2.3:-2.3);const rot=(reverse?-70:70)+(i%2?10:-10);paw.style.left=x+"vw";paw.style.top=Math.max(4,Math.min(90,y))+"vh";paw.style.setProperty("--rot",rot+"deg");pawLayer.appendChild(paw);setTimeout(()=>paw.remove(),4200);},i*250);}}
+if(!reducedMotion){setTimeout(pawWalk,2600);setInterval(pawWalk,12500);}
